@@ -26,7 +26,8 @@ public class _17_MaxSumOfSubArray {
         for (int i=start;i<=end;i++){
             System.out.print(arr[i]+" ");
         }
-        System.out.println(maxSum);
+        System.out.println();
+        System.out.println("maxSum = " +maxSum);
     }
 
     public static void main(String[] args) {
